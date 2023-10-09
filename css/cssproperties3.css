@@ -1,0 +1,29 @@
+#div1 {
+    width:300px ;
+    height:300px ;
+    background-color:aqua ;
+    float: left;
+}
+#div2 {
+    width:300px ;
+    height:300px ;
+    background-color: blueviolet ;
+    float: left;
+}
+#div3 {
+    width:300px ;
+    height:300px ;
+    background-color:red ;
+    float: left;
+}
+#div4 {
+    width:300px ;
+    height:300px ;
+    background-color:palevioletred ;
+    float: left;
+}
+div {
+    float: left;
+    width:25% ;
+    height:300px ;
+}

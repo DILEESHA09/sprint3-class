@@ -1,0 +1,72 @@
+h1 {
+    /* color: rebeccapurple; */
+    /* color: rgb(red, green, blue); */
+/* color: rgb(225,0,0); */
+color: #A569BD;
+}
+/* border properties */
+h1 {
+    /* border: 1px solid red; */
+   border-color: red;
+   /* border-style: solid; */
+   border-top-style: dashed;
+   border-right-style: dotted;
+   border-bottom-style: groove;
+   border-left-style: dashed;
+    border-width:3px;
+    border-radius: 10px;
+    
+    
+}
+/* background properties */
+div {
+    height: 500px;
+    width: 600px;
+    background-color: greenyellow;
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-position: right top; */
+    background-position: center;
+}
+/* font prperties */
+ #pa1{
+    /* font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-style:italic;
+font-weight:bold ;
+font-variant: small-caps; */
+font : italic small-caps bold 24px Georgia 
+
+}
+/* text properties */
+#pa2 {
+  font-size:20px ; 
+  color: orange;
+  text-align: center;
+  text-decoration:none;
+  text-transform: capitalize;
+  text-shadow:1px 1px red ;
+}
+#users td, #users th {
+    border: 1px solid black;
+    padding: 10px;
+}
+#users {
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;   
+}
+#users th {
+    background-color: green;
+    padding: 5px;
+    color:white;
+}
+#users tr:nth-child(even) {
+    background-color: red;
+}
+#users tr:hover{
+    background-color: blue;
+}

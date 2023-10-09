@@ -1,0 +1,37 @@
+#parent {
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    overflow: auto;
+}
+
+.red {
+    width: 600px;
+    height: 30px;
+    background-color: red;
+}
+
+.blue {
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+
+}
+.yellow {
+    width: 600px;
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+    top: 50px;
+}
+
+
+.green {
+    width: 600px;
+    height: 150px;
+    background-color: green;
+    position: sticky;
+    top: 200px;
+}
